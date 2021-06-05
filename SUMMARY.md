@@ -30,4 +30,5 @@
 * [Maximum Height by Stacking Cuboids](unfamiliar/maximum-height-by-stacking-cuboids.md)
 * [Consecutive Numbers Sum](unfamiliar/consecutive-numbers-sum.md)
 * [Course Schedule III](unfamiliar/course-schedule-iii.md)
+* [Sliding Window Maximum](unfamiliar/sliding-window-maximum.md)
 
