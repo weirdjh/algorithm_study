@@ -31,4 +31,5 @@
 * [Consecutive Numbers Sum](unfamiliar/consecutive-numbers-sum.md)
 * [Course Schedule III](unfamiliar/course-schedule-iii.md)
 * [Sliding Window Maximum](unfamiliar/sliding-window-maximum.md)
+* [Sliding Window Median](unfamiliar/sliding-window-median.md)
 
