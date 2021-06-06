@@ -7,6 +7,7 @@
 * [Find Loop](familiar/find-loop.md)
 * [Count Complete Tree Nodes](familiar/untitled.md)
 * [Subarray Sum Equals K](familiar/subarray-sum-equals-k.md)
+* [Heap Construction & Heap Sort](familiar/heap-construction-and-heap-sort.md)
 
 ## Unfamiliar
 
