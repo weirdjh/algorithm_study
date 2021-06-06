@@ -108,7 +108,7 @@ class MedianFinder {
 ```
 {% endtab %}
 
-{% tab title="Sliding Window Median" %}
+{% tab title="Sliding Window Median \(pq\)" %}
 * java의 Priority Queue의 remove는 O\(N\)임.
 * 따라서 이 풀이는 O\(NK\)임 ... heap으로 대체해야함.
 
@@ -171,6 +171,73 @@ class Solution {
 }
 ```
 {% endtab %}
+
+{% tab title="Sliding Window Median \(binary Search\)" %}
+* binary search 통해서 sorted를 유지하면서 원소를 추가 제거 가능..!
+* optimal 풀이.
+
+```java
+class Solution {
+    public double[] medianSlidingWindow(int[] nums, int k) {
+        
+        int medianIdx = 0;
+        double[] medians = new double[nums.length - k + 1];
+        
+        List<Integer> sortedK = new ArrayList<>();
+        
+        for(int i=0; i<nums.length; i++) {
+            sortedK.add(findIndex(sortedK, nums[i]), nums[i]);
+            
+            if (sortedK.size() == k) {
+                medians[medianIdx++] = findMedian(sortedK);
+                
+                sortedK.remove(findIndex(sortedK, nums[i-k+1]));
+            }      
+        }
+        
+        return medians;        
+    }
+    
+    public double findMedian(List<Integer> list) {
+        int len = list.size();
+        
+        // 2 -> 0,1
+        // 4 -> 1,2
+        // 6 -> 2,3
+        if (len % 2 == 0) {
+            return ((long)list.get(len / 2) + list.get(len / 2 - 1)) / 2.0;
+        }
+        
+        // 3 -> 1
+        // 5 -> 2
+        return list.get(len / 2);
+    }
+    
+    
+    // [5 7 9 11 13] , 10 -> index: 3
+    // [5 7 9 11 13] , 4  -> index: 0
+    public int findIndex(List<Integer> list, int value) {
+        int left = 0, right = list.size() - 1;
+        
+        while(left <= right) {
+            int mid = (left + right) / 2;
+            
+            if (list.get(mid) < value) {
+                left = mid + 1;
+            }
+            else if (list.get(mid) > value) {
+                right = mid - 1;
+            }
+            else {
+                return mid;
+            }
+        }
+        
+        return left;
+    }
+}
+```
+{% endtab %}
 {% endtabs %}
 
 ## Ref
@@ -187,5 +254,5 @@ class Solution {
 
 ## Tag
 
-`#priority-queue` `#heap` `#sliding-window` `#median`
+`#priority-queue` `#heap` `#sliding-window` `#median` `#binary_search`
 
