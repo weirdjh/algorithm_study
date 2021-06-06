@@ -101,11 +101,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/maximum-height-by-stacking-cuboids/" %}
-
-
-
-
+* [https://leetcode.com/problems/maximum-height-by-stacking-cuboids/](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
 
 ## Tag
 

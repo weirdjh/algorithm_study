@@ -146,9 +146,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/longest-string-chain/" %}
-
-
+* [https://leetcode.com/problems/longest-string-chain/](https://leetcode.com/problems/longest-string-chain/)
 
 ## Tag
 

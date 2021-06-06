@@ -79,11 +79,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/course-schedule-iii/" %}
-
-
-
-
+* [https://leetcode.com/problems/course-schedule-iii/](https://leetcode.com/problems/course-schedule-iii/)
 
 ## Tag
 

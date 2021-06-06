@@ -174,13 +174,8 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/longest-increasing-subsequence/" %}
-
-{% embed url="https://leetcode.com/problems/russian-doll-envelopes/" %}
-
-
-
-
+* [https://leetcode.com/problems/longest-increasing-subsequence/](https://leetcode.com/problems/longest-increasing-subsequence/)
+* [https://leetcode.com/problems/russian-doll-envelopes/](https://leetcode.com/problems/russian-doll-envelopes/)
 
 ## Tag
 

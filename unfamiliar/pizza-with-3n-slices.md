@@ -220,15 +220,9 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/house-robber/" %}
-
-{% embed url="https://leetcode.com/problems/house-robber-ii/" %}
-
-{% embed url="https://leetcode.com/problems/pizza-with-3n-slices/" %}
-
-
-
-
+* [https://leetcode.com/problems/house-robber/](https://leetcode.com/problems/house-robber/)
+* [https://leetcode.com/problems/house-robber-ii/](https://leetcode.com/problems/house-robber-ii/)
+* [https://leetcode.com/problems/pizza-with-3n-slices/](https://leetcode.com/problems/pizza-with-3n-slices/)
 
 ## Tag
 

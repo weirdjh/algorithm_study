@@ -166,13 +166,9 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/binary-tree-maximum-path-sum/" %}
-
-{% embed url="https://leetcode.com/problems/diameter-of-binary-tree/" %}
-
-{% embed url="https://leetcode.com/problems/longest-univalue-path/" %}
-
-
+* [https://leetcode.com/problems/binary-tree-maximum-path-sum/](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [https://leetcode.com/problems/diameter-of-binary-tree/](https://leetcode.com/problems/diameter-of-binary-tree/)
+* [https://leetcode.com/problems/longest-univalue-path/](https://leetcode.com/problems/longest-univalue-path/)
 
 ## Tag
 

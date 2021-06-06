@@ -180,11 +180,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/open-the-lock/" %}
-
-
-
-
+* [https://leetcode.com/problems/open-the-lock/](https://leetcode.com/problems/open-the-lock/)
 
 ## Tag
 

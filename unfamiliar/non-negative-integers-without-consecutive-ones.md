@@ -102,11 +102,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/" %}
-
-
-
-
+* [https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)
 
 ## Tag
 

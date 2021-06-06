@@ -153,9 +153,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/longest-string-chain/" %}
-
-
+* [https://leetcode.com/problems/candy/](https://leetcode.com/problems/candy/)
 
 {% embed url="https://www.geeksforgeeks.org/chocolate-distribution-problem-set-2/?ref=rp" %}
 

@@ -109,9 +109,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/max-points-on-a-line/" %}
-
-
+* [https://leetcode.com/problems/max-points-on-a-line/](https://leetcode.com/problems/max-points-on-a-line/)
 
 ## Tag
 

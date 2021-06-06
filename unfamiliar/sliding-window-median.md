@@ -242,13 +242,8 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/find-median-from-data-stream/" %}
-
-{% embed url="https://leetcode.com/problems/sliding-window-median/" %}
-
-
-
-
+* [https://leetcode.com/problems/find-median-from-data-stream/](https://leetcode.com/problems/find-median-from-data-stream/)
+* [https://leetcode.com/problems/sliding-window-median/](https://leetcode.com/problems/sliding-window-median/)
 
 
 

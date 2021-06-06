@@ -96,9 +96,7 @@ class Program {
 
 ## Ref
 
-{% embed url="https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/" %}
-
-
+* [https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/](https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/)
 
 ## Tag
 

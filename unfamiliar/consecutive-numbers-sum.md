@@ -125,9 +125,7 @@ class Solution {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/consecutive-numbers-sum/" %}
-
-
+* [https://leetcode.com/problems/consecutive-numbers-sum/](https://leetcode.com/problems/consecutive-numbers-sum/)
 
 
 

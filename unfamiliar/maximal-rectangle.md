@@ -152,15 +152,8 @@ public int largestRectangleArea(int[] heights) {
 
 ## Ref
 
-{% embed url="https://leetcode.com/problems/maximal-rectangle/" %}
-
-{% embed url="https://leetcode.com/problems/largest-rectangle-in-histogram/" %}
-
-
-
-
-
-
+* [https://leetcode.com/problems/maximal-rectangle/](https://leetcode.com/problems/maximal-rectangle/)
+* [https://leetcode.com/problems/largest-rectangle-in-histogram/](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 ## Tag
 
