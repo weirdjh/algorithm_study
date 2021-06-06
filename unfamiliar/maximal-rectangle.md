@@ -135,7 +135,9 @@ public int largestRectangleArea(int[] heights) {
     for(int i=0; i<=heights.length; i++) {
         while(!stack.isEmpty() && (i == heights.length || heights[stack.peek()] > heights[i])) {
             int height = heights[stack.pop()];
-            int width = (!stack.isEmpty()) ? i - stack.peek() -1 : i;
+            
+            int right = i;
+                int left = (!stack.isEmpty()) ? stack.peek() + 1 : 0;
             
             max = Math.max(max, height * width);
         }

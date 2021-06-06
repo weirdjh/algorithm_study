@@ -33,4 +33,5 @@
 * [Course Schedule III](unfamiliar/course-schedule-iii.md)
 * [Sliding Window Maximum](unfamiliar/sliding-window-maximum.md)
 * [Sliding Window Median](unfamiliar/sliding-window-median.md)
+* [Search in Rotated Sorted Array](unfamiliar/search-in-rotated-sorted-array.md)
 
