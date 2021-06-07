@@ -36,7 +36,7 @@ sample output: 4
 
 ## Idea
 
-* left sorted / right sorted 인 상황을 분리해서 생각해보
+* left sorted / right sorted 인 상황을 분리해서 생각해보자
 
 ## Code 
 
@@ -88,7 +88,7 @@ class Solution {
 
 {% tab title="Check if exists \(Duplicate\)" %}
 * element들의 duplicate 허용.
-* target이 존재하는지 판단하는 문
+* target이 존재하는지 판단하는 문제
   * input : `nums = [2,5,6,0,0,1,2], target = 0`
   * output : `true`
 
