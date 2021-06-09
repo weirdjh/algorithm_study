@@ -37,4 +37,5 @@
 * [Trapping Rain Water](unfamiliar/trapping-rain-water.md)
 * [Trapping Rain Water 2](unfamiliar/trapping-rain-water-2.md)
 * [Linked List](unfamiliar/linked-list.md)
+* [Number of Digit One](unfamiliar/number-of-digit-one.md)
 
