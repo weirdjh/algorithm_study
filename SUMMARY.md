@@ -35,4 +35,5 @@
 * [Sliding Window Median](unfamiliar/sliding-window-median.md)
 * [Search in Rotated Sorted Array](unfamiliar/search-in-rotated-sorted-array.md)
 * [Trapping Rain Water](unfamiliar/trapping-rain-water.md)
+* [Linked List](unfamiliar/linked-list.md)
 
