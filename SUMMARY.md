@@ -2,14 +2,14 @@
 
 * [Hello World](README.md)
 
-## Familiar
+## Read Twice <a id="undefine"></a>
 
-* [Find Loop](familiar/find-loop.md)
-* [Count Complete Tree Nodes](familiar/untitled.md)
-* [Subarray Sum Equals K](familiar/subarray-sum-equals-k.md)
-* [Heap Construction & Heap Sort](familiar/heap-construction-and-heap-sort.md)
+* [Find Loop](undefine/find-loop.md)
+* [Count Complete Tree Nodes](undefine/untitled.md)
+* [Subarray Sum Equals K](undefine/subarray-sum-equals-k.md)
+* [Heap Construction & Heap Sort](undefine/heap-construction-and-heap-sort.md)
 
-## Unfamiliar
+## Read Once <a id="unfamiliar"></a>
 
 * [Longest Substring without Duplication](unfamiliar/longest-substring-without-duplication.md)
 * [Rearrange a given linked list in-place](unfamiliar/rearrange-a-given-linked-list-in-place.md)
