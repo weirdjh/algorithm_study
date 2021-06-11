@@ -40,4 +40,5 @@
 * [Number of Digit One](unfamiliar/number-of-digit-one.md)
 * [Find Winner on a Tic Tac Toe Game](unfamiliar/find-winner-on-a-tic-tac-toe-game.md)
 * [Permutation](unfamiliar/permutation.md)
+* [First Missing Positive](unfamiliar/first-missing-positive.md)
 
