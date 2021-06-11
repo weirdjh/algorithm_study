@@ -38,7 +38,7 @@ Explanation: We only need to swap the second (row[1]) and third (row[2]) person.
 {% tab title="Permutation" %}
 * Find All possibles
 * Eliminate some conditions
-* Time : $$O(N^2 + a)$$ , Space: $$O(N^2 + a)$$ 
+* Time : $$O(N^2 + a)$$ , Space: $$O(N^2 + a)$$ ... recursion stack size
 
 ```java
 // [0,4,3,1,2,5]
@@ -111,7 +111,7 @@ class Solution {
 {% tab title="Simple Search And Swap" %}
 * Same Logic with first solution \(`Permutation`\)
 * Idea : No change if possible \(idx % 2 == 0\)
-* Time : $$O(N^2)$$ , Space: $$O(N^2)$$
+* Time : $$O(N^2)$$ , Space: $$O(1)$$
 
 ```java
 class Solution {
