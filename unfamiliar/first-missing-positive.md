@@ -90,7 +90,7 @@ class Solution {
 ```
 {% endtab %}
 
-{% tab title="Swap" %}
+{% tab title="Cyclic Sort" %}
 * Find right position of each number. -&gt; `1 x 3 4 5 x 7 8 x x`
 * if all numbers are located in their place... return n + 1
 
