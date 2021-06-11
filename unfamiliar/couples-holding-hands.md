@@ -112,6 +112,9 @@ class Solution {
 * Same Logic with first solution \(`Permutation`\)
 * Idea : No change if possible \(idx % 2 == 0\)
 * Time : $$O(N^2)$$ , Space: $$O(1)$$
+  * We can reduce time complexity to $$O(N)$$ if using additional space.
+  * Store array / map which stores the position of couples.
+  * Modify array / map around swap.
 
 ```java
 class Solution {
