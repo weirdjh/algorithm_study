@@ -39,6 +39,10 @@ Output: 2
 
 ## Code 
 
+{% tabs %}
+{% tab title="Hash" %}
+
+
 ```java
 // 4 8 7 1 5 2 3 -> 6
 
@@ -84,6 +88,59 @@ class Solution {
     }
 }
 ```
+{% endtab %}
+
+{% tab title="Swap" %}
+* Find right position of each number. -&gt; `1 x 3 4 5 x 7 8 x x`
+* if all numbers are located in their place... return n + 1
+
+```java
+public class Solution {
+    public int firstMissingPositive(int[] nums) {
+        int n = nums.length;
+        
+        for(int i = 0; i < n; i++) {
+            while(nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1]) {
+                swap(nums, i, nums[i] - 1);
+            }
+        }
+        
+        for(int i = 0; i < n; i++) {
+            if(nums[i] != i + 1) {
+                return i + 1;
+            }
+        }
+                
+        return n + 1;
+    }
+    
+    private void swap(int[] nums, int i, int j) {
+        nums[i] ^= nums[j];
+        nums[j] ^= nums[i];
+        nums[i] ^= nums[j];
+    }
+}
+/*
+[7,-1,8,3,9,11,1,12], n = 8
+
+
+// Find right position of 7 -> index of 6
+i = 0    nums[0] = 7 / nums[0] - 1 = 6 : swap(0,6) [1,-1,8,3,9,11,7,12]
+         nums[0] = 1 / nums[0] - 1 = 0 : same... pass
+         
+i = 1    nums[1] = -1 : pass
+i = 2    nums[2] = 8  : pass
+i = 3    nums[3] = 3  / nums[3] - 1 = 2 : swap(3,2) [1,-1,3,8,9,11,7,12]
+         nums[3] = 8  : pass
+         
+i = 4    nums[4] = 9  : pass
+i = 5    nums[5] = 11 : pass
+i = 6    nums[6] = 7  / nums[6] - 1 = 6 : same... pass
+i = 7    nums[7] = 12 : pass
+*/
+```
+{% endtab %}
+{% endtabs %}
 
 ## Ref
 
