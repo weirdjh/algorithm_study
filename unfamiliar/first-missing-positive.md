@@ -152,5 +152,5 @@ i = 7    nums[7] = 12 : pass
 
 ## Tag
 
-`#missing-number` `#hash` `#swap` 
+`#cyclic-sort` `#missing-number` `#hash` `#swap` 
 
