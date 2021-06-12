@@ -25,12 +25,13 @@ Explanation: We only need to swap the second (row[1]) and third (row[2]) person.
 
 ## Idea
 
-* permutation \(+ how can I get minimum?\)
+* base idea: permutation
+* how can I get minimum?
 
 ## Complexity
 
 * Time : $$O(N)$$ 
-* Space: $$O(1)$$ .... use existing array
+* Space: $$O(N)$$
 
 ## Code 
 
