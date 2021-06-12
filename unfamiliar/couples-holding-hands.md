@@ -241,6 +241,65 @@ class Solution {
 }
 ```
 {% endtab %}
+
+{% tab title="Union Find" %}
+* 총 couple의 수, N개 만큼 vertex가 있다고 하자.
+* 어떤 위치 2i, 2i+1 에 vertex u, vertex v 로 부터 한 개씩 위치해있다고 생각할 수 있음.
+* 만약 vertex u, vertex v가 다른 커플이라면 -&gt; 두 개의 vertex 사이에는 edge가 필요함.
+* 따라서 couple Vertex의 edge를 추가해주다보면? 
+* 다음과 같이 connect 된 component들을 올바른 커플을 매칭하려면, 각 edge들을 끊어줘야함 \(swap이 필요함\)
+* \[1,2,3,4,5,0,7,8,9,6\]
+  * \(0,1\) -&gt; \(4,5\) -&gt; \(2,3\)
+  * \(6,7\) -&gt; \(8,9\)
+  * 총 3 개의 edge를 끊어줘야함.
+*  Component C 에 있는 노드의 개수를 N, Component 총 개수를 k라고 할 때,
+  * 끊어야하는 edge개수 = Sum\(Nk - 1\) = N - k
+
+```java
+class Solution {
+    private class UF {
+        private int[] parents;
+        
+        // count = component 개수
+        public int count;
+        UF(int n) {
+            parents = new int[n];
+            for (int i = 0; i < n; i++) {
+                parents[i] = i;
+            }
+            count = n;
+        }
+        
+        private int find(int i) {
+            if (parents[i] == i) {
+                return i;
+            }
+            parents[i] = find(parents[i]);
+            return parents[i];
+        }
+        
+        public void union(int i, int j) {
+            int a = find(i);
+            int b = find(j);
+            if (a != b) {
+                parents[a] = b;
+                count--;
+            }
+        }
+    }
+    public int minSwapsCouples(int[] row) {
+        int N = row.length/ 2;
+        UF uf = new UF(N);
+        for (int i = 0; i < N; i++) {
+            int a = row[2*i];
+            int b = row[2*i + 1];
+            uf.union(a/2, b/2);
+        }
+        return N - uf.count;
+    }
+}
+```
+{% endtab %}
 {% endtabs %}
 
 ## Ref
