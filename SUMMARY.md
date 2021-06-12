@@ -42,4 +42,5 @@
 * [Permutation](unfamiliar/permutation.md)
 * [First Missing Positive](unfamiliar/first-missing-positive.md)
 * [Couples Holding Hands](unfamiliar/couples-holding-hands.md)
+* [Find the Duplicate Number](unfamiliar/find-the-duplicate-number.md)
 
