@@ -167,6 +167,79 @@ class Solution {
 }
 ```
 {% endtab %}
+
+{% tab title="Using position map" %}
+* Make position map of each couple
+* Time : $$O(N)$$ , Space: $$O(N)$$
+
+```java
+class Solution {
+    public int minSwapsCouples(int[] row) {
+        int[] positionMap = makePositionMap(row);
+        
+        int count = 0;
+        for(int idx=0; idx<row.length; idx++) {
+            
+            if (idx % 2 == 0) {
+                continue;
+            }
+
+            int current = row[idx - 1];
+            int target = row[idx];
+            
+            if (positionMap[current] > idx) {
+                count += 1;
+            }
+
+            swap(row, idx, positionMap[current]);
+            updatePosition(positionMap, current, target, idx);
+        }
+        
+        return count;
+    }
+    
+    public int findPartner(int person) {
+        if (person % 2 == 0) {
+            return person + 1;
+        }
+        return person - 1;
+    }
+    
+    // 2n-1 -> 2n-2
+    // 2n-2 -> 2n-1
+    // row: [1 5 0 3 2 4]
+    // pos: [2 5 0 4 3 1]
+    public int[] makePositionMap(int[] row) {
+        int[] positionMap = new int[row.length];
+        
+        for(int i=0; i<row.length; i++) {
+            int partner = findPartner(row[i]);
+            
+            positionMap[partner] = i;
+        }
+        
+        return positionMap;
+    }
+
+    // [As-Is] A-1 B-2 x x x x x A-2 x x x B-1
+    // current: A-1
+    //  target: B-2
+    //    idx : 1
+    //
+    // [To-Be] A-1 A-2 x x x x x B-2 x x x B-1
+    public void updatePosition(int[] positionMap, int current, int target, int idx) {        
+        positionMap[findPartner(target)] = positionMap[current];
+        positionMap[current] = idx;
+    }
+    
+    public void swap(int[] row, int i, int j) {
+        int tmp = row[i];
+        row[i] = row[j];
+        row[j] = tmp;
+    }
+}
+```
+{% endtab %}
 {% endtabs %}
 
 ## Ref
@@ -177,5 +250,5 @@ class Solution {
 
 ## Tag
 
-`#cyclic-sort` `#union-find` `#greedy` 
+`#cyclic-sort` `#union-find` `#greedy` `#index-map` 
 
