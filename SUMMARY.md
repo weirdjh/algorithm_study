@@ -45,4 +45,5 @@
 * [Find the Duplicate Number](unfamiliar/find-the-duplicate-number.md)
 * [Edit Distance](unfamiliar/edit-distance.md)
 * [Wildcard Matching](unfamiliar/wildcard-matching.md)
+* [Path Sum](unfamiliar/path-sum.md)
 
