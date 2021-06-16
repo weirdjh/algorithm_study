@@ -47,4 +47,5 @@
 * [Wildcard Matching](unfamiliar/wildcard-matching.md)
 * [Path Sum](unfamiliar/path-sum.md)
 * [Shortest Unsorted Continuous Subarray](unfamiliar/shortest-unsorted-continuous-subarray.md)
+* [Parentheses](unfamiliar/parentheses.md)
 
