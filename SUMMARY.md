@@ -50,4 +50,5 @@
 * [Parentheses](unfamiliar/parentheses.md)
 * [Word Break](unfamiliar/word-break.md)
 * [Maximum Profit in Job Scheduling](unfamiliar/maximum-profit-in-job-scheduling.md)
+* [Multiply Strings](unfamiliar/multiply-strings.md)
 
