@@ -49,4 +49,5 @@
 * [Shortest Unsorted Continuous Subarray](unfamiliar/shortest-unsorted-continuous-subarray.md)
 * [Parentheses](unfamiliar/parentheses.md)
 * [Word Break](unfamiliar/word-break.md)
+* [Maximum Profit in Job Scheduling](unfamiliar/maximum-profit-in-job-scheduling.md)
 
