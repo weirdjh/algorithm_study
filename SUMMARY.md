@@ -48,4 +48,5 @@
 * [Path Sum](unfamiliar/path-sum.md)
 * [Shortest Unsorted Continuous Subarray](unfamiliar/shortest-unsorted-continuous-subarray.md)
 * [Parentheses](unfamiliar/parentheses.md)
+* [Word Break](unfamiliar/word-break.md)
 
