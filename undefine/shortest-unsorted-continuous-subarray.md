@@ -29,7 +29,7 @@ to make the whole array sorted in ascending order.
 
 ## Idea
 
-* Store result integer into array!
+* local min / max
 
 ## Complexity
 
