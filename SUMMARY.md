@@ -54,4 +54,5 @@
 * [Multiply Strings](unfamiliar/multiply-strings.md)
 * [Unique Binary Search Trees II](unfamiliar/unique-binary-search-trees-ii.md)
 * [Different Ways to Add Parentheses](unfamiliar/different-ways-to-add-parentheses.md)
+* [Basic Calculator](unfamiliar/basic-calculator.md)
 
