@@ -56,4 +56,5 @@
 * [Different Ways to Add Parentheses](unfamiliar/different-ways-to-add-parentheses.md)
 * [Basic Calculator](unfamiliar/basic-calculator.md)
 * [Word Search II](unfamiliar/word-search-ii.md)
+* [Regular Expression Matching](unfamiliar/regular-expression-matching.md)
 
