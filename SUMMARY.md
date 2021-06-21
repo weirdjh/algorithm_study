@@ -8,6 +8,7 @@
 * [Count Complete Tree Nodes](undefine/untitled.md)
 * [Subarray Sum Equals K](undefine/subarray-sum-equals-k.md)
 * [Heap Construction & Heap Sort](undefine/heap-construction-and-heap-sort.md)
+* [Shortest Unsorted Continuous Subarray](undefine/shortest-unsorted-continuous-subarray.md)
 
 ## Read Once <a id="unfamiliar"></a>
 
