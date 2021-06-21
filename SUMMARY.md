@@ -9,6 +9,7 @@
 * [Subarray Sum Equals K](undefine/subarray-sum-equals-k.md)
 * [Heap Construction & Heap Sort](undefine/heap-construction-and-heap-sort.md)
 * [Shortest Unsorted Continuous Subarray](undefine/shortest-unsorted-continuous-subarray.md)
+* [Wiggle Subsequence](undefine/wiggle-subsequence.md)
 
 ## Read Once <a id="unfamiliar"></a>
 
