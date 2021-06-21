@@ -108,5 +108,5 @@ class Solution {
 
 ## Tag
 
-`#Kadane` `#dp` `#schedule` `#LIS`
+`#Kadane` `#dp` `#schedule` `#LIS` `#binary-search`
 
