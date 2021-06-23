@@ -62,4 +62,5 @@
 * [Single-Threaded CPU](unfamiliar/single-threaded-cpu.md)
 * [My Calendar](unfamiliar/my-calendar.md)
 * [Beautiful Arrangement](unfamiliar/beautiful-arrangement.md)
+* [Beautiful Arrangement II](unfamiliar/beautiful-arrangement-ii.md)
 
