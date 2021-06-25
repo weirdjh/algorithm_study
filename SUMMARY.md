@@ -64,4 +64,6 @@
 * [Beautiful Arrangement](unfamiliar/beautiful-arrangement.md)
 * [Beautiful Arrangement II](unfamiliar/beautiful-arrangement-ii.md)
 * [Best Time to Buy and Sell Stock](unfamiliar/best-time-to-buy-and-sell-stock.md)
+* [Sliding Window \(Atmost\)](unfamiliar/sliding-window-atmost/README.md)
+  * [Count Number of Nice Subarrays](unfamiliar/sliding-window-atmost/count-number-of-nice-subarrays.md)
 
