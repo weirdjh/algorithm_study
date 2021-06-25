@@ -84,7 +84,7 @@ class Solution {
 
 ## Ref
 
-* [https://leetcode.com/problems/beautiful-arrangement/](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+* [https://leetcode.com/problems/count-number-of-nice-subarrays/](https://leetcode.com/problems/count-number-of-nice-subarrays/)
 
 ## Tag
 

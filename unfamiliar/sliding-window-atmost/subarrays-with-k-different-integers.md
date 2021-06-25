@@ -89,7 +89,7 @@ class Solution {
 
 ## Ref
 
-* [https://leetcode.com/problems/beautiful-arrangement/](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+* [https://leetcode.com/problems/subarrays-with-k-different-integers/](https://leetcode.com/problems/subarrays-with-k-different-integers/)
 
 ## Tag
 
