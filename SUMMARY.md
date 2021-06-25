@@ -66,4 +66,5 @@
 * [Best Time to Buy and Sell Stock](unfamiliar/best-time-to-buy-and-sell-stock.md)
 * [Sliding Window \(Atmost\)](unfamiliar/sliding-window-atmost/README.md)
   * [Count Number of Nice Subarrays](unfamiliar/sliding-window-atmost/count-number-of-nice-subarrays.md)
+  * [Subarrays with K Different Integers](unfamiliar/sliding-window-atmost/subarrays-with-k-different-integers.md)
 
