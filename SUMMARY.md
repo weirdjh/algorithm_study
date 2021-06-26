@@ -74,4 +74,5 @@
 * [Split Array Largest Sum](split-array-largest-sum.md)
 * [Palindrome Partitioning II](palindrome-partitioning-ii.md)
 * [The Skyline Problem](the-skyline-problem.md)
+* [Minimum Number of Refueling Stops](minimum-number-of-refueling-stops.md)
 
