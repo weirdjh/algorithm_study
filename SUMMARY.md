@@ -77,4 +77,5 @@
 * [Minimum Number of Refueling Stops](minimum-number-of-refueling-stops.md)
 * [Path With Minimum Effort](path-with-minimum-effort.md)
 * [Count of Smaller Numbers After Self](count-of-smaller-numbers-after-self.md)
+* [Kth Largest Element in an Array](kth-largest-element-in-an-array.md)
 
