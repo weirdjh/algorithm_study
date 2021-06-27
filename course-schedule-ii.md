@@ -84,6 +84,8 @@ class Solution {
                 if (inDegree[next] > 0) {                    
                     inDegree[next] -= 1;
                 }
+                
+                // Enqueue when there isn't additional edge to next node
                 if (inDegree[next] == 0) {
                     queue.offer(next);
                 }
