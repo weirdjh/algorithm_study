@@ -37,8 +37,8 @@ So the correct course order is [0,1].
 
 ## Complexity
 
-* Time: $$O(n^2)$$
-* Space: $$O(n)$$
+* Time: $$O(V+E)$$
+* Space: $$O(V+E)$$
 
 ## Code 
 
